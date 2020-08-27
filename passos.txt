@@ -8,3 +8,15 @@
 8. yarn add react-native-reanimated react-native-gesture-handler react-native-screens react-native-safe-area-context @react-native-community/masked-view
 9. import 'react-native-gesture-handler'; IN TOP OF THE FIRST LOADED App FILE (in my case, src/App.tsx)
 10. npm install @react-navigation/stack
+
+Pra adicionar fonte, cria uma pasta react-native-config.js?
+module.exports = {
+    project:{
+        ios: {},
+        android: {},
+    },
+    assets: [
+        './assets/fonts'
+    ]
+}
+e roda o comando yarn react-native link
