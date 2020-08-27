@@ -1,0 +1,10 @@
+1. apagar App.tsx
+2. Criar pasta SRC
+3. Criar App.tsx
+4. Editar o App no arquivo index.js pra ./src/App
+5. yarn add styled-components
+6. yarn add @types/styled-components -D
+7. yarn add @react-navigation/native
+8. yarn add react-native-reanimated react-native-gesture-handler react-native-screens react-native-safe-area-context @react-native-community/masked-view
+9. import 'react-native-gesture-handler'; IN TOP OF THE FIRST LOADED App FILE (in my case, src/App.tsx)
+10. npm install @react-navigation/stack
